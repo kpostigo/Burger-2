@@ -1,2 +1,2 @@
 # burger
-burger logger using mySQL, Node, Express, Handlebars, and a homemade ORM
+burger logger using mySQL, Node, Express, and Handlebars (now with sequelize!).
