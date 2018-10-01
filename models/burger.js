@@ -1,3 +1,13 @@
+module.exports = function (sequelize, DataTypes) {
+  var Burger = sequelize.define('Burger', {
+    id: DataTypes.INTEGER,
+    burger_name: DataTypes.STRING,
+    devoured: DataTypes.BOOLEAN
+  });
+  return Burger;
+};
+
+/*
 var orm = require('../config/orm');
 
 var burger = {
@@ -19,3 +29,4 @@ var burger = {
 };
 
 module.exports = burger;
+*/
